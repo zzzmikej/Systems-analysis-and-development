@@ -1,0 +1,13 @@
+Como fazer para que as classes que representam esses 3 funcionários sejam obrigadas a implementar o método calculaSalario()? 
+R: Fazer uma classe abstrata e colocar o metodo abstrato calculaSalario().
+
+Seria melhor usar classe abstrata ou interface? Justifique.
+R: Classe abstrata
+
+é necessário ter 2 List ou apenas um?
+R: Apenas um
+
+Implemente a classe que contém o main, e dentro do main, crie objetos Professor, Coordenador
+e Secretaria, crie objeto da classe ControleBonus, e chame seus métodos.
+O polimorfismo está presente nesse sistema? Justifique.
+Sim, esta presente por que a classe ControleBonus aceita qualquer objeto que seja uma instância de Funcionario

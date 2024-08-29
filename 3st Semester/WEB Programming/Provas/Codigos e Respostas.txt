@@ -1,0 +1,24 @@
+100 - Continue
+Essa resposta provisória indica que o cliente deve continuar a solicitação ou ignorar a resposta se a solicitação já estiver concluída.
+
+101 - Trocando de Protocolo
+
+
+102 - Processando
+
+
+103 - Servidor Preparando Resposta
+
+
+200 - Ok
+
+
+201 - Criado
+
+
+202 - Trabalho assinado
+
+
+
+caso precise de nome composto tem que ser por kebab
+Post nunca retorna um 200
