@@ -1,0 +1,120 @@
+function ListarMaquinas() {
+
+        var agencia = sessionStorage.AGENCIA;
+        fetch("/dashboard/listarMaquinasAg", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                agenciaServer: agencia,
+            })
+        }).then(function (response) {
+            if (response.ok) {
+                response.json().then(json => {
+                    json.forEach(e => {
+                        console.log(e.idMaquina)
+                        const idMaq = e.idMaquina
+                        select_maquinas.innerHTML += `
+                            <option value="${e.idMaquina}">Maquina ${e.idMaquina}</option>
+                            `
+                        agencias.innerHTML += `
+                            <option value="${e.idMaquina}">Maquina ${e.idMaquina}</option>
+                            `
+                        console.log(machineData.idMaq + "machine data idamq")
+                        console.log(e.idMaquina + "teste 01 ")
+                        listarStatusMaquinas(idMaq)
+                    })
+                })
+            }
+
+        });
+    }
+
+    var machineData = {};
+
+    function listarStatusMaquinas(idMaquina) {
+        var agencia = sessionStorage.AGENCIA;
+        var banco = sessionStorage.BANCO;
+        var idMaq = idMaquina;
+        var nomeComp = "";
+
+
+        fetch("/dashboard/statusMaquinas", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                agenciaServer: agencia,
+                bancoServer: banco,
+                maquinaServer: idMaq,
+
+            })
+        }).then(function (response) {
+            if (response.ok) {
+                response.json().then(json => {
+
+                    json.forEach(e => {
+
+                        console.log(e.IDMaquina + "Maquina")
+
+                        var max = e.CapacidadeMaxima;
+                        console.log(e)
+
+                        if (e.NomeComponente.includes("Processador")) {
+                            machineData.usoProcessador = e.UsoAtual;
+                        } else if (e.NomeComponente.includes("RAM")) {
+                            machineData.usoRam = e.UsoAtual;
+                        } else if (e.NomeComponente.includes("Disco")) {
+                            machineData.usoDisco = e.UsoAtual;
+                            machineData.status = e.Status;
+                            machineData.idMaq = e.IdMaquina;
+                        }
+
+                        for (var i = 0; i< machineData.length; i++) {
+
+                            console.log(machineData[i] + "")
+                          
+                            cards_maquinas.innerHTML += `
+                            <div class="card-maq">
+                            <div class="cab-card">
+                                <h3 class="title-card-maq">Maquina</h3>
+                                <p class="num-maquina">${machineData[i].numMaquina}</p>
+                            </div>
+
+                        <div class="center-card">
+                            <div class="info-card">
+                                <p class="item">CPU</p>
+                                <p class="cons-item">${machineData[i].usoProcessador}%</p>
+                            </div>
+                            <div class="info-card">
+                                <p class="item">RAM</p>
+                                <p class="cons-item">${machineData[i].usoRam}%</p>
+                            </div>
+                            <div class="info-card">
+                                <p class="item">Disco</p>
+                                <p class="cons-item">${machineData[i].usoDisco}%</p>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="info-card">
+                                <p class="stats">Status</p>
+                                <p class="situacao-stats desativada">${machineData[i].statusMaquina}</p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        `
+                           
+                        } 
+                    })
+                })
+            }
+
+        });
+
+        console.log(machineData)
+
+
+    }

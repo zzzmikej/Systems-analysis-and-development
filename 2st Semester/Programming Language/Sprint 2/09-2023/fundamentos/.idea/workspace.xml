@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aac94cd5-009e-4068-8b15-ffcba9179542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista 01 - Nivelamento1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/Lista01Exercicios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/src/main/java/CalculadoraTroco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/src/main/java/CalculoMedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/src/main/java/CalculoRenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/src/main/java/PerdaCalorias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/target/classes/CalculadoraTroco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/target/classes/CalculoMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/target/classes/CalculoRenda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 01 - Nivelamento (Tipos, Operadores, Condicionais)/Lista01Exercicios/target/classes/PerdaCalorias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/Acumulador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/ContadorVariado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/Loteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/NumerosImpares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/NumerosPares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/Potencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/Sorteio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/src/main/java/Votacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/Acumulador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/ContadorVariado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/Loteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/NumerosImpares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/NumerosPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/Potencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/Sorteio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/Lista 02 - Nivelamento (Randomicos e Laços de Repetição)/Lista02Exercicios/target/classes/Votacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/exemplo-lista/exemplo-lista.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/exemplo-lista/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/exemplo-lista/src/main/java/ExemploLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/exemplo-lista/target/classes/ExemploLista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/mini-desafio-listas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/src/main/java/RemocaoDeElementosPares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/src/main/java/SomaDeElementos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/target/classes/RemocaoDeElementosPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/mini-desafio-listas/target/classes/SomaDeElementos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/vetor-e-interpolacao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/vetor-e-interpolacao/src/main/java/Interpolacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/vetor-e-interpolacao/src/main/java/Leitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/vetor-e-interpolacao/target/classes/Leitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linguagem de Programacao/vetor-e-interpolacao/vetor-e-interpolacao.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+    <option name="REBUILD_ON_DEPENDENCY_CHANGE" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Data.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1366" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fundamentos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fundamentos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fundamentos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fundamentos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fundamentos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fundamentos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1693524936626" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data" />
+      <module name="fundamentos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aac94cd5-009e-4068-8b15-ffcba9179542" name="Default Changelist" comment="" />
+      <created>1693524293721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693524293721</updated>
+      <workItem from="1693524305911" duration="1172000" />
+      <workItem from="1693673257130" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1285000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1366" height="717" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1321004" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1321004" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
