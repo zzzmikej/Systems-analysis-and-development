@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viagem</title>
+</head>
+
+<body>
+    <h1>Viagem</h1>
+    <input type="text" placeholder="Destino da Viagem" id="viagensLugares"><br><br>
+    <button onclick="viajar()">Adicionar</button>
+    <button onclick="primeira()">Primeira Viagem</button>
+    <button onclick="terceira()">Terceira Viagem<button>
+    <button onclick="ultima()">Ultima Viagem</button>
+    <br>
+    <br>
+    <div id="mensagem">
+        Seu destino de aparecerá aqui
+    </div>
+</body>
+
+</html>
+<script>
+    var viagens = [];
+
+    function viajar() {
+        var lugar = viagensLugares.value;
+        viagens.push(lugar);
+    }
+    function primeira() {
+        mensagem.innerHTML = `Seu primeiro destino de viagem é ${viagens[0]}`;
+    }
+    function terceira() {
+        mensagem.innerHTML = `Seu terceiro destino de viagem é ${viagens[2]}`;
+        
+    }
+    function ultima() {
+        mensagem.innerHTML = `Seu ultimo destino de viagem é ${viagens[viagens.length-1]}`;
+        
+    }
+</script>
+
+<!--2. Crie um Programa o qual: 
+
+a) Tenha um campo "Destino de viagem" e um botão "Adicionar" 
+
+b) Ao clicar no botão, esse destino deve ser adicionado em algum lugar o qual o usuário não vê.
+Não existe problema em serem registrados valores repetidos 
+
+c) Deve haver os botões: 
+
+  "Primeira viagem" - Ao clicar nele, aparece abaixo o primeiro local cadastrado ou "ainda não viajou",
+  caso nenhuma viagem tenha sido registrada 
+
+  "Terceira viagem" - Ao clicar nele, aparece abaixo o 3º local cadastrado ou "ainda fez a 3ª viagem",
+  caso não tenha feito 3 viagens ainda 
+
+  "Última viagem" - Ao clicar nele, aparece abaixo o último local cadastrado ou "ainda não viajou",
+  caso nenhuma viagem tenha sido registrada 
+
+OBS: Obtenha esses três valores SOMENTE do vetor que criar 
+ -->

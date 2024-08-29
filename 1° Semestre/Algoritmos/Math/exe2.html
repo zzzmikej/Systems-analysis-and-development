@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Valor Minimo <input type="text" id="valorMinimo">
+    Valor Maximo <input type="text" id="valorMaximo"><br>
+    <button onclick="sortear()">Sortear</button>
+
+    <div id="mensagem">
+
+    </div>
+</body>
+</html>
+<script>
+    var numeros = ['1','3','10','18','22'];
+    function sortear() {
+        var min = valorMinimo.value;
+        var max = valorMaximo.value;
+        var sorteado = parseInt(Math.random() * max);
+        
+        while (sorteado < min) {
+            sorteado = parseInt(Math.random() * max);
+        }
+
+        if (numeros.indexOf() == sorteado){
+        mensagem.innerHTML = `Parabéns ! O número ${sorteado} está na posição ${numeros.indexOf(sorteado)+1} da nossa lista`
+        }
+        console.log(sorteado)
+
+        
+    }
+</script>
+<!--2) Faça um programa que:
+
+a) Tenha cinco números cadastrados em algum lugar do programa;
+
+b) Tenha duas inputs "mínimo" e "máximo";
+
+c) Ao clicar em "Sortear", faça:
+
+    c.1) Sorteie um número entre o valor mínimo e máximo que o usuário indicou;
+
+d) Mostre o valor sorteado ao usuário em algum lugar da página;
+
+e) Caso o número sorteado esteja entre os números do vetor, exiba:
+
+    "Parabéns ! O número X está na posição Y da nossa lista"-->

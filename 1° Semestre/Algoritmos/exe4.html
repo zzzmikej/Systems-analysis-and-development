@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe4</title>
+</head>
+<body>
+    Filmes Favoritos:
+    <input type="text" placeholder="Insira aqui os Filmes" id="filmes_inp"><br>
+    <button onclick="adicionar()">Cadastrar Filme</button>
+    <button onclick="fav()">Ver Favoritos</button>
+    <div id="mensagem"></div>
+</body>
+</html>
+<script>
+    var filmes = [];
+
+    function adicionar() {
+        var filmesAdd = filmes_inp.value;
+        filmes.push(filmesAdd);
+    }
+
+    function fav() {
+        mensagem.innerHTML = `
+        Total de Filmes: ${filmes.length} <br><br>
+
+        O que mais gosta é ${filmes[0]}<br><br>
+
+        E desses, o que menos gosta é ${filmes[filmes.length-1]}<br>
+        `
+    }
+</script>
+<!-- (ENTREGAR) 4. Crie um programa no qual o usuário informa os nomes dos filmes que mais gosta,
+     começando pelo seu favorito e depois o 2º que mais gosta e assim por diante. 
+
+Para ir cadastrando cada filme, ele clica em "Cadastrar filme". 
+
+Crie um botão "Ver Favoritos". Ao clicar ele, exiba os filmes favoritos, abaixo, uma frase "Total: X". 
+
+Abaixo, mostra essas frases: 
+
+ O que mais gosta é A 
+
+ E desses, o que menos gosta é B 
+
+  
+
+Onde A é o primeiro cadastrado e B, o último 
+
+  -->

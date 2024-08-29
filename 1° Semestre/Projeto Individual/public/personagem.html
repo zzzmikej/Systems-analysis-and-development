@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+    <title>Quiz Sobre Personagem</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="./assets/img/icons/avengers.svg" alt="">
+                <span>
+                    Hero Universe
+                </span>
+            </div>
+            <ul>
+                <li>Olá, <span id="b_usuario"></span></li>
+                <li><a href="login.html" onclick="limparSessao()" class="nav-link link-animation">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="selectsPerso">
+            <select id="selectPersonagem">
+                <option value="SelecioneUmPersonagem" selected>Selecione um Personagem</option>
+                <option value="capitain_american">Capitão América</option>
+                <option value="iron_man">Homem de Ferro</option>
+                <option value="thor">Thor</option>
+                <option value="hulk">Hulk</option>
+                <option value="black_widow">Viúva Negra</option>
+                <option value="black_panther">Pantera Negra</option>
+            </select>
+            <button onclick="acharPersonagem()">Selecionar Personagem</button>
+        </div>
+        <div class="containerPerso">
+
+            <div class="container cardPersonagem">
+                <div id="person">
+                </div>
+
+            </div>
+            <h1>Quiz Personagens da Marvel</h1>
+            <form>
+                <h3>Pergunta 1:</h3>
+                <p>Qual o nome do super-herói conhecido como "Homem de Ferro"?</p>
+                <input type="radio" name="pergunta1" value="a"> a) Tony Stark<br>
+                <input type="radio" name="pergunta1" value="b"> b) Steve Rogers<br>
+                <input type="radio" name="pergunta1" value="c"> c) Bruce Banner<br>
+
+                <h3>Pergunta 2:</h3>
+                <p>Qual o nome do super-herói conhecido como "Homem-Aranha"?</p>
+                <input type="radio" name="pergunta2" value="a"> a) Peter Parker<br>
+                <input type="radio" name="pergunta2" value="b"> b) Scott Lang<br>
+                <input type="radio" name="pergunta2" value="c"> c) T'Challa<br>
+
+                <h3>Pergunta 3:</h3>
+                <p>Qual o nome da super-heroína conhecida como "Viúva Negra"?</p>
+                <input type="radio" name="pergunta3" value="a"> a) Natasha Romanoff<br>
+                <input type="radio" name="pergunta3" value="b"> b) Wanda Maximoff<br>
+                <input type="radio" name="pergunta3" value="c"> c) Carol Danvers<br>
+
+                <h3>Pergunta 4:</h3>
+                <p>Qual o nome do super-herói conhecido como "Thor"?</p>
+                <input type="radio" name="pergunta4" value="a"> a) Loki<br>
+                <input type="radio" name="pergunta4" value="b"> b) Clint Barton<br>
+                <input type="radio" name="pergunta4" value="c"> c) Odinson<br>
+
+                <h3>Pergunta 5:</h3>
+                <p>Qual o nome do super-herói conhecido como "Capitão América"?</p>
+                <input type="radio" name="pergunta5" value="a"> a) Peter Quill<br>
+                <input type="radio" name="pergunta5" value="b"> b) Bucky Barnes<br>
+                <input type="radio" name="pergunta5" value="c"> c) Steve Rogers<br>
+
+                <br><br>
+                <input type="button" value="Verificar Respostas" onclick="verificarRespostas()">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function verificarRespostas() {
+        var respostasCorretas = 0;
+        var respostasErradas = 0;
+
+        var pergunta1 = document.querySelector('input[name="pergunta1"]:checked').value;
+        if (pergunta1 === "a") {
+            respostasCorretas++;
+        } else {
+            respostasErradas++;
+        }
+
+        var pergunta2 = document.querySelector('input[name="pergunta2"]:checked').value;
+        if (pergunta2 === "a") {
+            respostasCorretas++;
+        }
+    }
+
+</script>

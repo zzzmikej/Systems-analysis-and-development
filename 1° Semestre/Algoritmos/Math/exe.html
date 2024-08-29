@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Imagem Aleatoria</title>
+</head>
+<body>
+    <button onclick="gerar()">Sortear Imagem</button><br>
+
+    <div id="imag">
+    </div>
+</body>
+</html>
+<script>
+    var imagem = [
+        'https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png',
+        'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/12/24/1414215821-agenciacorinthians-foto-196178.jpg',
+        'https://i.pinimg.com/originals/d3/ee/a7/d3eea7132b6436e214966aef5929f9f9.jpg',
+        'https://www.ofutebolero.com.br/__export/1668896835988/sites/elfutboleromx/img/2022/11/19/roger-guedes-e-yuri-alberto-celebram-gol-do-corinthians-no-duelo-contra-o-coritiba-valido-pelo-campeonato-brasileiro-1658368260399_v2_4x3.jpg_2062789929.jpg',
+        'https://conteudo.imguol.com.br/c/esporte/74/2022/10/01/roger-guede-do-corinthians-comemora-seu-gol-durante-partida-contra-o-cuiaba-no-brasileirao-1664674551622_v2_1920x1279.jpg'
+    ];
+    function gerar() {
+        imag.innerHTML = "";
+
+        var numero = parseInt(Math.random() * imagem.length);
+        if (imagem.length == 0){
+            imag.innerHTML = `Não existem mais imagens`
+        } else {
+            imag.innerHTML += `
+            <img style="width:40%;" src="${imagem[numero]}" alt="" srcset="">
+            `
+
+        }
+
+        imagem.splice(numero, 1);
+
+        console.log(imagem.length)
+        
+        console.log(numero)
+    }
+</script>

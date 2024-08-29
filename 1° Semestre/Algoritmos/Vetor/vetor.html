@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Adicionar Produto a Cesta
+    <input id="inputProduto"><br>
+    <button onclick="adicionar()">Adicionar a Cesta</button>
+    <button onclick="exibir()">Exibir a Cesta</button><br>
+    <div id="mensagem">
+
+    </div>
+</body>
+</html>
+<script>
+    var cesta_cafe = [];
+
+    function adicionar() {
+        var produto = inputProduto.value;
+
+        if (cesta_cafe.indexOf(produto) < 0 ){
+            cesta_cafe.push(produto);
+        } else {
+            alert("Esse produto já existe na lista");
+        }
+    }
+
+    function exibir() {
+        mensagem.innerHTML = `
+        Produtos na cesta:  ${cesta_cafe.length}<br>
+        `;
+
+        for (var i = 0; i < cesta_cafe.length; i++) {
+            var produto_atual = cesta_cafe[i];
+            
+            mensagem.innerHTML += `
+            ${i + 1}. ${produto_atual}<br>
+            `
+        }
+    }
+</script>

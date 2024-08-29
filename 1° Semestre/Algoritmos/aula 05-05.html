@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Fruta <input type="text" id="inputFruta"><br>
+    <button onclick="adicionar()">Adicionar</button>
+    <br>
+    <div id="divFrutas">
+
+    </div>
+</body>
+
+</html>
+<script>
+    var listaFrutas = [];
+
+    function adicionar() {
+        var fruta = inputFruta.value;
+        listaFrutas.push(fruta);
+        inputFruta.value = "";
+        divFrutas.innerHTML = `
+        Primeira Fruta: ${listaFrutas[0]}     <br>
+        Última Fruta:   ${listaFrutas [listaFrutas.length - 1]}    <br>
+        Lista das Frutas:   ${listaFrutas} <br>`
+    }
+</script>

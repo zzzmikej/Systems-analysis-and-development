@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Sort</title>
+</head>
+<body>
+    <input id="insert_inp">
+    <button onclick="inserir()">Colocar numero no Vetor</button>
+    <button onclick="insertionSort(numeros)">Organizar</button><br>
+
+    <div id="div_numer"></div>
+</body>
+</html>
+
+<script>
+    var numeros = [];
+
+    function inserir() {
+        var numer = Number(insert_inp.value);
+
+        if (numeros.indexOf(numer) > -1){
+            alert("Já existe esse numero")
+        } else {
+            numeros.push(numer)
+        }
+    }
+
+    function insertionSort(numeros) {
+    var tam = numeros.length;
+    for(var chave = 1; chave < tam; chave++) {
+        var atual = numeros[chave];
+        var anterior = chave - 1;
+        while((anterior > -1) && (atual < numeros[anterior])){
+            numeros[anterior + 1] = numeros[anterior];
+            console.log(numeros[chave])
+            anterior--
+        }
+        numeros[anterior+1] = atual
+    }
+    div_numer.innerHTML = numeros
+    return numeros
+}
+
+</script>
